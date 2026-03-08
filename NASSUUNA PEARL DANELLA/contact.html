@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BLOOMDAIZEL</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+    />
+    <link rel="icon" type="image/x-icon" href="/IMAGES/favicon.ico">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- first section:navbar,body -->
+    <section class="header">
+      <nav>
+        <a><img src="IMAGES/logo2.jpg" /></a>
+        <div class="links" id="LINKS">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="service.html">SERVICES</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="home">
+        <h2 id="heading2">CONTACT US</h2>
+        <br />
+        <h1>BLOOMDAIZEL AGENCY</h1>
+        <p>Where Creativity Blooms, Business Grows</p>
+      </div>
+    </section>
+
+    <section class="body">
+      <div class="one">
+        <h1 id="form">Service Form Application</h1>
+
+        <div>
+          <form>
+            <div>
+              <label for="name">NAME</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter name"
+                required
+              />
+            </div>
+            <div>
+              <label for="email">EMAIL</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter email here!"
+                required
+              />
+            </div>
+            <div>
+              <label>SERVICES</label>
+              <label
+                ><input
+                  type="radio"
+                  name="service"
+                  value="artificial-intelligence"
+                />ARTIFICIAL INTELLIGENCE</label
+              >
+              <label
+                ><input
+                  type="radio"
+                  name="service"
+                  value="digital-strategy"
+                />DIGITAL-STRATEGY</label
+              >
+              <label
+                ><input
+                  type="radio"
+                  name="service"
+                  value="ux-design"
+                />UX-DESIGN</label
+              >
+              <label
+                ><input
+                  type="radio"
+                  name="service"
+                  value="app-development"
+                />APP-DEVELOPMENT</label
+              >
+            </div>
+            <label for="number">NUMBER</label>
+            <input
+              type="tel"
+              id="number"
+              placeholder="Enter your number"
+              maxlength="10"
+              required
+            /><br /><br />
+            <button class="button" type="submit">SUBMIT</button>
+          </form>
+          <br /><br />
+          <hr />
+        </div>
+      </div>
+    </section>
+
+    <section class="apply" >
+      <h1 id="jobs">APPLICATION FORM</h1>
+      <div>
+        <form>
+          <div>
+          <label for="firstname">FIRSTNAME</label>
+          <input id="firstname" type="text" name="firstname" placeholder="First Name" required>
+          </div>
+          <div>
+            <label for="lastname">LASTNAME</label>
+            <input id="lastname" type="text" name="lastname" placeholder="Last Name" required>
+          </div>
+          <div>
+            <label for="experience">EXPERIENCE</label>
+            <input id="experience" type="number" name="experience" placeholder="Enter years of experience">
+          </div>
+          <div>
+            <label for="email">EMAIL</label>
+            <input id="email" type="email" name="email" placeholder="Enter email address" required>
+          </div>
+          <div>
+            <label for="tel">TELEPHONE CONTACT</label>
+            <input id="tel" type="tel" name="phone" placeholder="Enter contact" maxlength="10" required>
+          </div>
+          <div>
+            <label for="address">ADDRESS</label>
+            <input id="address" name="address" type="text" placeholder="Enter address" required>
+          </div>
+          <div>
+            <label for="pay">EXPECTED PAY</label>
+            <input id="pay" name="pay" type="number" placeholder="Enter expected salary" required>
+          </div>
+          <div>
+            <label>Select Your Desired Job</label>
+            <label><input type="radio" name="job" value="FullStack developer">FullStack Developer</label>
+            <label><input type="radio" name="job" value="UI/UX designer">UI/UX designer</label>
+            <label><input type="radio" name="job" value="Graphic Designer">Graphic Designer</label>
+            <label><input type="radio" name="job" value="Social media Manager">Social media Manager</label>
+            <label><input type="radio" name="job" value="Sales Executive">Sales Executive</label>
+            <label><input type="radio" name="job" value="SEO Specialist">SEO Specialist</label>
+            <label><input type="radio" name="job" value="Brand Identity Designer">Brand Identity Designer</label>
+            <label><input type="radio" name="job" value="QA/ Software Tester">QA/ Software Tester</label>
+            <label><input type="radio" name="job" value="Mobile app Developer">Mobile app Developer</label>
+            <label><input type="radio" name="job" value="Project designer">Project designer</label>
+          </div>
+          <div>
+            <label for="document">Upload CV file</label>
+            <input id="document" type="file">
+          </div>
+          <div>
+            <label for="picture">Upload Your Photo</label>
+            <input id="picture" type="file">
+          </div><br><br>
+          <button class="button">SUBMIT</button>
+        </form>
+      </div>
+    </section>
+    <section class="body2">
+      <div class="two2">
+        <h2 id="call">OUR CONTACTS</h2>
+       <section class="contact">
+        <div class="row">
+            <div class="we">
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>Contact</h5>
+                        <p>0778909861</p>
+                    </span>
+                </div>
+            </div>
+            <div class="we">
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>Email Us</h5>
+                        <p>bloomdaizel@agency.com</p>
+                    </span>
+                </div>
+            </div>
+            <div class="we">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Address</h5>
+                        <p>Kampala, Uganda</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+       </section>
+      </div>
+    </section>
+
+    <!-- call to action -->
+   <h5 style="text-align: center; color:purple; font-size: 20px;">Thank you. Have a good time</h5>
+    <!-- footer section -->
+    <section class="footer">
+      <h4>BloomDaizel Agency</h4>
+      <p>
+        A creative digital agency dedicated to helping businesses flourish
+        online. We combine modern technology, innovative design and personalized
+        strategies to deliver websites, apps and many other things.<br />
+        Our mission is to empower brands with the tools and creativity they need
+        to grow, adapt and suceed in today's fast-paced digital world.
+      </p>
+      <div class="icons">
+        <a href="https://www.facebook.com/" target="_blank"
+          ><i class="fa fa-facebook"></i
+        ></a>
+        <a href="https://twitter.com" target="_blank"
+          ><i class="fa fa-twitter"></i
+        ></a>
+        <a href="https://www.instagram.com" target="_blank"
+          ><i class="fa fa-instagram"></i
+        ></a>
+        <a href="https://www.linkedin.com" target="_blank"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+        <a href="https://www.quora.com" target="_blank"
+          ><i class="fa fa-quora"></i
+        ></a>
+      </div>
+      <p>Made with <i class="fa fa-heart"></i> by Daniella Pearl</p>
+    </section>
+
+    <!-- Javascript to make navigation -->
+    <script>
+      var LINKS = document.getElementById("LINKS");
+      function showMenu() {
+        LINKS.style.right = "0";
+      }
+      function hideMenu() {
+        LINKS.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
